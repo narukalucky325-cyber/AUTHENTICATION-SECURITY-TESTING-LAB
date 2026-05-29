@@ -53,13 +53,19 @@ Logs track all login activities in real-time
 <br>
 📊 Dashboard Features
 <br>
+
+
 Shows total successful logins
 Shows failed login attempts
 Displays live authentication logs
 Security status monitoring (SAFE / ALERT / WARNING)
 <br>
+
+
 🎯 Purpose of Project
 <br>
+
+
 This project is designed for:
 
 Learning web security fundamentals
