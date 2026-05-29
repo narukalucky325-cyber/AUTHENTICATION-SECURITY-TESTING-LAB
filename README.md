@@ -29,38 +29,38 @@ A cybersecurity-focused authentication testing platform built with Flask. It sim
 git clone https://github.com/narukalucky325-cyber/AUTHENTICATION-SECURITY-TESTING-LAB.git
 <br>
 
-2️⃣ Move into project folder
+## 2️⃣ Move into project folder
+```bash
 cd AUTHENTICATION-SECURITY-TESTING-LAB
 <br>
-
 3️⃣ Install dependencies
 pip install flask flask-bcrypt
 <br>
-
 4️⃣ Run the project
 python app.py
 <br>
-
 5️⃣ Open in browser
-<br>
-
+http://127.0.0.1:5000
 <br>
 🔐 Security Features Explained
 <br>
+
 Passwords are hashed using bcrypt before storing in database
 Login attempts are tracked to prevent brute-force attacks
 Accounts lock after multiple failed attempts
 Session-based authentication ensures secure access
 Logs track all login activities in real-time
-<br>
+
 <br>
 📊 Dashboard Features
+<br>
 Shows total successful logins
 Shows failed login attempts
 Displays live authentication logs
 Security status monitoring (SAFE / ALERT / WARNING)
 <br>
 🎯 Purpose of Project
+<br>
 
 This project is designed for:
 
@@ -70,11 +70,14 @@ Practicing penetration testing concepts
 Building SOC-style monitoring dashboards
 <br>
 ⚠ Disclaimer
+<br>
 
-This project is for educational purposes only. It should not be used in production without proper security auditing and improvements.
+This project is for educational purposes only.
+It should not be used in production without proper security auditing and improvements.
 
 <br>
 👨‍💻 Author
+<br>
 
 Developed as a cybersecurity learning project focused on authentication security and penetration testing concepts.
 
