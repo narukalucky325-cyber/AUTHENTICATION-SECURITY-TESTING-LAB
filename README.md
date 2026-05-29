@@ -40,11 +40,13 @@ python app.py
 5️⃣ Open in browser
 <br>
 🔐 Security Features Explained
+<br>
 Passwords are hashed using bcrypt before storing in database
 Login attempts are tracked to prevent brute-force attacks
 Accounts lock after multiple failed attempts
 Session-based authentication ensures secure access
 Logs track all login activities in real-time
+<br>
 <br>
 📊 Dashboard Features
 Shows total successful logins
