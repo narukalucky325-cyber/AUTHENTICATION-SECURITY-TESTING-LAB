@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure Login Lab</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<div class="layout">
+
+    <!-- LEFT FEATURES PANEL -->
+    <div class="side left">
+        <h2>🛡 SECURITY FEATURES</h2>
+
+        <div class="feature">🔐 Secure Authentication</div>
+        <div class="feature">⚠ Brute Force Protection</div>
+        <div class="feature">📊 Login Tracking</div>
+        <div class="feature">🧠 Threat Detection Engine</div>
+        <div class="feature">🔥 Live Attack Monitor</div>
+
+        <hr>
+
+        <p class="small">All login attempts are monitored in real-time security logs.</p>
+    </div>
+
+    <!-- CENTER LOGIN BOX -->
+    <div class="center">
+
+        <div class="login-box">
+
+            <h1>🔐 Secure Access</h1>
+            <p class="sub">Authentication Security Testing Lab</p>
+
+            <form method="POST">
+                <input name="username" placeholder="Username" required>
+                <input name="password" type="password" placeholder="Password" required>
+                <button type="submit">LOGIN</button>
+            </form>
+
+            <a href="/register">Create Account</a>
+
+        </div>
+
+    </div>
+
+    <!-- RIGHT INFO PANEL -->
+    <div class="side right">
+        <h2>📡 SYSTEM STATUS</h2>
+
+        <div class="status-box">
+            <p>🟢 Server: ONLINE</p>
+            <p>🛡 Protection: ACTIVE</p>
+            <p>📡 Logs: LIVE</p>
+        </div>
+
+        <hr>
+
+        <h3>⚡ Security Notes</h3>
+        <p class="small">
+            This system simulates penetration testing scenarios for educational purposes.
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
