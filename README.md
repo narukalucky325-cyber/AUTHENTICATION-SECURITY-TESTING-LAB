@@ -28,16 +28,22 @@ A cybersecurity-focused authentication testing platform built with Flask. It sim
 <br>
 git clone https://github.com/narukalucky325-cyber/AUTHENTICATION-SECURITY-TESTING-LAB.git
 <br>
+
 2️⃣ Move into project folder
 cd AUTHENTICATION-SECURITY-TESTING-LAB
 <br>
+
 3️⃣ Install dependencies
 pip install flask flask-bcrypt
 <br>
+
 4️⃣ Run the project
 python app.py
 <br>
+
 5️⃣ Open in browser
+<br>
+
 <br>
 🔐 Security Features Explained
 <br>
