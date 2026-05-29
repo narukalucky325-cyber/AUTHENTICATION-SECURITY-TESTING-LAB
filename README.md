@@ -60,7 +60,6 @@ Security status monitoring (SAFE / ALERT / WARNING)
 <br>
 🎯 Purpose of Project
 <br>
-
 This project is designed for:
 
 Learning web security fundamentals
@@ -68,11 +67,14 @@ Understanding authentication systems
 Practicing penetration testing concepts
 Building SOC-style monitoring dashboards
 <br>
+
+<br>
 ⚠ Disclaimer
 <br>
 
 This project is for educational purposes only.
 It should not be used in production without proper security auditing and improvements.
+
 
 <br>
 👨‍💻 Author
